@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__list-items">
+		  <a class="logo" href="./">Class Todo</a>
+          </li>
+          <li class="navigation__list-items">About</li>
+        </ul>
+      </nav>
+
+
+      <section class="todo__section">
+        <h1 class="todo__section--heading">Monday Todo's</h1>
+
+        <ul id="todo__list">
+          <!-- this is where our todo should live -->
+        </ul>
+
+        <form id="form" class="form">
+          <input required id="todo__input" class="form__input" type="text" />
+          <button class="todo__actions add__btn margin">Add</button>
+          <button id="Clear" type="button" class="todo__actions add__btn margin">Clear</button>
+        </form>
+      </section>
+
+
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
